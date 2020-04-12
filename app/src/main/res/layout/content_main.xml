@@ -12,10 +12,31 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="Bud The Budget Buddy"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.102"
+            android:fontFamily="sans-serif-light" android:textSize="24sp"/>
+    <Button
+            android:text="hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="293dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/button"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="375dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/button2"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="472dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/button3"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="546dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/button4"/>
 
 </android.support.constraint.ConstraintLayout>
